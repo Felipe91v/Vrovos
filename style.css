@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -22,7 +23,7 @@
   width: 100vw;
   position: absolute;
   top: 0;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 
 div.header h1 {
@@ -133,7 +134,23 @@ img {
   transition: transform 0.3s linear;
 }
 
+.imgslider{
+  padding: 10px;
+  border-radius: 20px;
+}
+
 main {
   width: 100%;
 }
 
+.sectionconfig {
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.subtitleconfig {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: 'Satisfy';
+  font-weight: 100;
+}
