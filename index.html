@@ -6,12 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!-- map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
 
     <title>VR ovos | Distribuidora </title>
 </head>
-
 <body>
     <header>
         <div class="wave">
@@ -67,31 +76,31 @@
 
         <section class="sectionconfig">
             <h2 class="subtitleconfig">Produtos</h2>
-            <p><b>Ovos Frescos</b>: Nossos ovos são cuidadosamente selecionados a partir de granjas renomadas,
+            <p><b>Ovos Frescos</b><br> Nossos ovos são cuidadosamente selecionados a partir de granjas renomadas,
                 garantindo frescor e qualidade superiores. Trabalhamos com produtores comprometidos em oferecer ovos
-                naturais, saudáveis e saborosos.
+                naturais, saudáveis e saborosos.</p>
 
-            <p><b>Variedade de Tamanhos</b>: Oferecemos ovos de diferentes tamanhos para atender às necessidades
+             <p>Oferecemos ovos de diferentes tamanhos para atender às necessidades
                 específicas do
                 seu negócio. Desde pequenos ovos de codorna até ovos big jumbo, temos uma variedade de opções
                 disponíveis.
             </p>
             
-            <p><b>Atacado Confiável</b>: Atendemos a restaurantes, hotéis, mercados, padarias e outros estabelecimentos
-                comerciais com opções de atacado confiáveis e preços competitivos. Seja qual for a sua demanda, estamos
+            <p> Atendemos a restaurantes, hotéis, mercados, padarias e outros estabelecimentos
+                comerciais com opções de atacado e preços competitivos. Seja qual for a sua demanda, estamos
                 prontos para atendê-la.</p>
 
-                <p><b>Produtos do norte</b>: Para você que adora se deliciar com produtos do norte, trabalhamos com uma
+                <p><b>Produtos do norte</b><br> Para você que adora se deliciar com produtos do norte, trabalhamos com uma
                     grande variedade de produtos,
                     desde castanhas, farinhas, bolachas, cajuína, guaraná jesus, beiju e muito mais.
                     venha conferir nosso cantinho do norte!
                 </p>
 
-            <p><b>Carvão de Qualidade</b>: Se você gosta de grelhar ou cozinhar, temos o carvão de alta
+            <p><b>Carvão de Qualidade</b><br> Se você gosta de grelhar ou cozinhar, temos o carvão de alta
                 qualidade que você procura. É o ingrediente secreto para churrascos deliciosos e pratos com um toque
                 rústico.</p>
 
-            <p><b>Alho Fresco</b>: O alho é um ingrediente essencial em muitas cozinhas e pratos. Nosso alho roxo é
+            <p><b>Alho Fresco</b><br> O alho é um ingrediente essencial em muitas cozinhas e pratos. Nosso alho roxo é
                 inigualável em sabor e aroma. Escolha entre opções de atacado e varejo e descubra como o alho pode
                 elevar sua culinária.</p>
 
@@ -100,25 +109,27 @@
         <section class="sectionconfig">
             <h2 class="subtitleconfig">Por Que Escolher a "VR Ovos"?</h2>
 
-            <p><b>Qualidade e Frescor:</b> Estamos comprometidos em oferecer produtos da mais alta qualidade. Nossos ovos são
+            <p><b>Qualidade e Frescor</b> Estamos comprometidos em oferecer produtos da mais alta qualidade. Nossos ovos são
             selecionados e embalados com cuidado, garantindo frescor inigualável.</p>
 
-            <p><b>Entrega Confiável:</b> Nossa distribuição é eficiente e confiável. Entregamos os produtos no prazo, garantindo
+            <p><b>Entrega Confiável</b> Nossa distribuição é eficiente e confiável. Entregamos os produtos no prazo, garantindo
             que você tenha acesso a ovos frescos sempre que precisar.</p>
             
-            <p><b>Serviço ao Cliente Excepcional:</b> A satisfação do cliente é a nossa prioridade. Nossa equipe está pronta para
+            <p><b>Serviço ao Cliente Excepcional</b> A satisfação do cliente é a nossa prioridade. Nossa equipe está pronta para
             ajudá-lo a encontrar as melhores opções para o seu negócio e responder a todas as suas perguntas.</p>
 
-            <p><b>Compromisso Sustentável:</b> Valorizamos a sustentabilidade e apoiamos práticas agrícolas responsáveis.
+            <p><b>Compromisso Sustentável</b> Valorizamos a sustentabilidade e apoiamos práticas agrícolas responsáveis.
             Trabalhamos com produtores comprometidos com a qualidade e o bem-estar das galinhas.</p>
 
-           <p><b>Faça Parceria Conosco:</b>
+           <p><b>Faça Parceria Conosco</b>
 
             Junte-se à família de clientes satisfeitos da "VR Ovos" e desfrute de ovos frescos e naturais em seu
             estabelecimento. Estamos prontos para atender às suas necessidades e superar as suas expectativas. Entre em
             contato conosco hoje mesmo para fazer uma encomenda ou esclarecer qualquer dúvida.
 
             entre em contato (11) 96944-4675
+
+            <div id="map"></div>
 
             Endereço Estrada velha de itapevi 4182 JD paulista
 
@@ -130,6 +141,7 @@
     <footer> ©</footer>
     <script src="slider.js"></script>
     <script src="script.js"></script>
+    
 </body>
 
 </html>

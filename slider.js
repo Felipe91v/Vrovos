@@ -2,7 +2,7 @@ let indexImages = 0;
 let proxImagem = 0;
 
 function slider() {
-    const allImages = document.querySelectorAll('img');
+    const allImages = document.querySelectorAll('.imgslider');
     
     indexImages++;
 
